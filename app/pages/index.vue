@@ -1,6 +1,8 @@
 <template>
   <div>
-    <h1>Home Page</h1>
+    <TitlePage 
+      title="Welcome to My Nuxt App"  
+    />
     <UiButton />
 
     <slot />
