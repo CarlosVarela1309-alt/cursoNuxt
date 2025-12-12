@@ -1,7 +1,13 @@
 <template>
   <div>
-    <h1>Products Page</h1>
-    <p>Esta es la página de información sobre nuestra aplicación</p>
+    <h1>Home Page</h1>
+    <UiButton />
+
+    <slot />
+
+    <footer>
+      <p>© 2025 My Nuxt App</p>
+    </footer>
   </div>
 </template>
 

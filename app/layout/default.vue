@@ -1,12 +1,6 @@
 <template>
   <div>
-    <nav>
-      <NuxtLink to="/">Home</NuxtLink>
-      <NuxtLink to="/about">About</NuxtLink>
-      <NuxtLink to="/products">Products</NuxtLink>
-      <NuxtLink to="/login">Login</NuxtLink>
-      <NuxtLink to="/register">Register</NuxtLink>
-    </nav>
+    <app-header />
 
     <slot />
 
@@ -16,4 +10,7 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import type appHeaderVue from '~/components/app-header.vue';
+
+</script>
