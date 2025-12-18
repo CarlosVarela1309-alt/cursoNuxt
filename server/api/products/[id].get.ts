@@ -6,6 +6,7 @@ const products = [
 
 export default eventHandler((event) => {
     const id = event.context.params?.id;
+    //const id = getRouterParam(event, "id");
 
     if(!id) {
         throw createError({

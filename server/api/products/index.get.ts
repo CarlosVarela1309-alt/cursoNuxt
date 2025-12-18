@@ -1,4 +1,8 @@
-const products = ['Product 1', 'Product 2', 'Product 3']
+const products = [
+    { id: 1, name: 'Product 1', price: 10.0 },
+    { id: 2, name: 'Product 2', price: 20.0 },
+    { id: 3, name: 'Product 3', price: 30.0 },
+];
 
 export default eventHandler(()=> {
     return products;
