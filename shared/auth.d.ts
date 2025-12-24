@@ -3,3 +3,7 @@ declare module "#auth-utils" {
         name:string;
     }
 }
+
+interface User {
+    user: User;
+}
